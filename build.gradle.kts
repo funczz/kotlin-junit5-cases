@@ -13,7 +13,7 @@ tasks {
     "release" {
         dependsOn(
             //":feature:publish", ":demo:publish"
-            ":flow-publisher:publish"
+            ":junit5-cases:publish"
         )
     }
 }
