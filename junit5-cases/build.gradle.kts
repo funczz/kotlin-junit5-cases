@@ -17,6 +17,7 @@ buildscript {
  * dependencies
  */
 dependencies {
+    implementation("org.junit.jupiter:junit-jupiter-api:5.1.0")
 }
 
 /**
