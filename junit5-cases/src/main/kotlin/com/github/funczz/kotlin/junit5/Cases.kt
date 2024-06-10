@@ -9,13 +9,15 @@ interface Cases {
      *  各@Testメソッドでは各assertAllテストの前に実行され、
      *  各@TestFactoryメソッドでは各dynamicTestテストの前に実行される
      */
-    fun setUpCases()
+    fun setUpCases() {
+    }
 
     /**
      *  各@Testメソッドでは各assertAllテストの後に実行され、
      *  各@TestFactoryメソッドでは各dynamicTestテストの後に実行される
      */
-    fun tearDownCases()
+    fun tearDownCases() {
+    }
 
     /**
      * DynamicTestにより動的にテストを生成して実行する
