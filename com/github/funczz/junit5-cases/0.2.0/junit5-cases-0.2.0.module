@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.funczz",
+    "module": "junit5-cases",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "junit5-cases-0.2.0.jar",
+          "url": "junit5-cases-0.2.0.jar",
+          "size": 5540,
+          "sha512": "22e12a7a078654f0077ab7bb4abed67cd3de039fd5941bb5dd94115c41822d481511b32588a386b0b68a49d205e0b30bb717bad9c9d99ea97a6d0c5889e0d9b4",
+          "sha256": "c574c24d7ac69aecce79de38001a8b87867acb9eff6c02f3f5a4d0305caa53c5",
+          "sha1": "752940570ea0ce56199b9cfa6dccec741d8505c2",
+          "md5": "c2c2620b2281c31ede5a033384f17eec"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "junit5-cases-0.2.0.jar",
+          "url": "junit5-cases-0.2.0.jar",
+          "size": 5540,
+          "sha512": "22e12a7a078654f0077ab7bb4abed67cd3de039fd5941bb5dd94115c41822d481511b32588a386b0b68a49d205e0b30bb717bad9c9d99ea97a6d0c5889e0d9b4",
+          "sha256": "c574c24d7ac69aecce79de38001a8b87867acb9eff6c02f3f5a4d0305caa53c5",
+          "sha1": "752940570ea0ce56199b9cfa6dccec741d8505c2",
+          "md5": "c2c2620b2281c31ede5a033384f17eec"
+        }
+      ]
+    }
+  ]
+}
